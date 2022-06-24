@@ -1,0 +1,18 @@
+{
+    "locations": [
+      { "id": 1, "name": "Brussels", "description": "Little Paris" },
+      { "id": 2, "name": "Paris", "description": "La ville de l'Amour" },
+      { "id": 3, "name": "Amsterdam", "description": "The Paris of the North" },
+      { "id": 4, "name": "Dusseldorf", "description": "The Green Heart of Germany" }
+    ],
+    "reviews": [
+      { "id": 1, "comment": "Reviews about Brussels #1", "rating": 4, "locationId": 1 },
+      { "id": 2, "comment": "Reviews about Brussels #2", "rating": 5, "locationId": 1 },
+      { "id": 3, "comment": "Reviews about Paris #1", "rating": 5, "locationId": 2 },
+      { "id": 4, "comment": "Reviews about Paris #2", "rating": 2, "locationId": 2 },
+      { "id": 5, "comment": "Reviews about Amsterdam #1", "rating": 3, "locationId": 3 },
+      { "id": 6, "comment": "Reviews about Amsterdam #1", "rating": 1, "locationId": 3 },
+      { "id": 7, "comment": "Reviews about Dusseldorf #1", "rating": 2, "locationId": 4 },
+      { "id": 8, "comment": "Reviews about Dusseldorf #1", "rating": 1, "locationId": 4 }
+    ]
+  }

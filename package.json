@@ -1,0 +1,23 @@
+{
+  "name": "hello-graphqlfederation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sample project for Apollo Federation",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev"
+  },
+  "keywords": [
+    "graphql",
+    "federation",
+    "apollo",
+    "demo"
+  ],
+  "author": "Maarten Louage <maarten@xprtz.net>",
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "^1.3.1"
+  }
+}

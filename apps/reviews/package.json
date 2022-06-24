@@ -1,0 +1,23 @@
+{
+  "name": "reviews",
+  "version": "1.0.0",
+  "description": "Reviews subgraph",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config -e env,graphql,js ./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/subgraph": "^2.0.5",
+    "apollo-datasource-rest": "^3.6.1",
+    "apollo-server": "^3.9.0",
+    "dotenv": "^16.0.1",
+    "graphql": "^16.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
